@@ -15,7 +15,7 @@ async function getCurrencies(){
         return response.data;
     }catch (error){
         console.log(error);
-        return {};
+        return null;
     }
 }
 
@@ -31,7 +31,7 @@ async function getExchangeRates(baseCurrency, conversionCurrency){
         return response.data;
     }catch (error){
         console.log(error);
-        return {};
+        return null;
     }
 }
 
@@ -48,6 +48,7 @@ async function getUserData(accessToken){
         return response.data;
     }catch(error){
         console.log(error);
+        return null;
     }
 }
 
