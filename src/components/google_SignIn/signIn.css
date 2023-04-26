@@ -1,0 +1,12 @@
+.signIn-button {
+    color: white;
+    background: blue;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.App-header{
+    background-color: #282c34;
+}

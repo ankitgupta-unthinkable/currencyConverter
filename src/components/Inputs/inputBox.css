@@ -1,0 +1,11 @@
+.input-div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 23px;
+    margin: 10px;
+}
